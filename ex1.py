@@ -13,3 +13,7 @@ def update_secret_code():
         print("You didn't enter a number, enter again")
         new_secret_code=input()
     secret_code=new_secret_code
+
+def print_balance():
+    print(money)
+    

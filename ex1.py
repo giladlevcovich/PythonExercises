@@ -1,3 +1,3 @@
-print("hello");
-x=7;
-print(x);
+print("hello")
+x=3
+print(x)

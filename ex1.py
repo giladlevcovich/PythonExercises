@@ -10,9 +10,9 @@ def check_secret_code(entered_secret_code):
 
 def update_secret_code():
     global secret_code
-    new_secret_code= input("Enter new secret code")
+    new_secret_code= input("Enter new secret code: \n")
     while not new_secret_code.isdigit():
-        print("You didn't enter a number, enter again")
+        print("You didn't enter a number, enter again: \n")
         new_secret_code=input()
     secret_code=new_secret_code
 
@@ -26,21 +26,41 @@ def money_withrawal():
     money_to_withdraw=input();
     while not money_to_withdraw.isdigit():
         print("You didn't enter a number, enter again")
-        money_to_withdraw = input();
+        money_to_withdraw = input()
     while True:
         if money_to_withdraw=='1':
-            money=money-20
+            money=int(money)-20
             break
         if money_to_withdraw=='2':
-            money=money-50
+            money=int(money)-50
             break
         if money_to_withdraw=='3':
             down=input("How much money to down?")
             while not down.isdigit():
                 print("You didn't enter a number, enter again")
                 down=input()
-            money=money-down
+            money=int(money) - int(down)
             break
+while True:
+    entered_code = input("Enter secret code:")
+    if not check_secret_code(entered_code):
+        print("Enter again, the code that was entered is not valid")
+        continue
 
-
-
+    print("Enter 1 for current money in account\n"
+          "enter 2 for money withrawal\n"
+          "enter 3 to change your secret code\n"
+          "enter 4 to get out of the ATM\n")
+    chose = input()
+    if chose == '1':
+        print(money)
+        continue
+    if chose == '2':
+        money_withrawal()
+        continue
+    if chose == '3':
+        update_secret_code()
+        continue
+    if chose == '4':
+        break
+print("Goodbye :)")

@@ -12,10 +12,10 @@ def calc_sum(id):
                 more_than_nine=more_than_nine%10+more_than_nine/10
             sum_For_checkDigit=sum_For_checkDigit+ more_than_nine
 
-    return 10-sum_For_checkDigit%10
+    return int(10-sum_For_checkDigit%10)
 
-idNumber=input("Enter an ID and I wil tell if it is correct!")
-if calc_sum(idNumber)==str(id[9]):
+idNumber=input("Enter an ID and I wil tell if it is correct! \n")
+if int(idNumber[8])==int(calc_sum(idNumber)):
     print("The idNum is correct")
 else:
-    print("The id num is not correct")
+    print("The idNum is not correct")

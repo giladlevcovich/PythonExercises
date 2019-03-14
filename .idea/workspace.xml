@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ee8e1e6-7326-4db6-8299-dcb9b055a771" name="Default Changelist" comment="" />
+    <list default="true" id="3ee8e1e6-7326-4db6-8299-dcb9b055a771" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex5.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex4.py">
+        <entry file="file://$PROJECT_DIR$/ex5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -30,14 +33,15 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ex1.py" />
         <option value="$PROJECT_DIR$/ex4.py" />
+        <option value="$PROJECT_DIR$/ex5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="859" />
-    <option name="y" value="30" />
+    <option name="x" value="866" />
+    <option name="y" value="5" />
     <option name="width" value="1057" />
-    <option name="height" value="621" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -74,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex4">
+  <component name="RunManager" selected="Python.ex5">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSigit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +121,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonSigit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex5" />
         <item itemvalue="Python.ex4" />
         <item itemvalue="Python.ex1" />
       </list>
@@ -138,15 +164,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="866" y="5" width="1057" height="654" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33366045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28893444" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28790787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959016" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -161,20 +187,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1.py" />
+    <entry file="file://$PROJECT_DIR$/ex4.py" />
     <entry file="file://$PROJECT_DIR$/ex5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
